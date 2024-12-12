@@ -31,7 +31,7 @@
 |이름|담당 업무|
 |:---:|---|
 |**조지은(팀장)**| GUI 전체 구현 및 Central Server - 소켓 통신|
-|**김완섭(팀원)**| Fire Segment, Fall Down Pose YOLO 모델 구현, PPT 자료 준비|
+|**김완섭(팀원)**| Fire Segment, Fall Down Pose & 딥러닝 YOLO 모델 구현, PPT 자료 준비|
 |**유재현(팀원)**| Central Server 구현, GUI - 소켓 통신, DB / Github 관리
 |**이영훈(팀원)**| Knife Detect YOLO 모델 구현|
 ---
