@@ -24,6 +24,7 @@
   <img src="https://img.shields.io/badge/slack-FFD700?style=for-the-badge&logo=slack&logoColor=white">
   <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
   <img src="https://img.shields.io/badge/PyQt5-83B81A?style=for-the-badge&logo=PyQt5&logoColor=white">
+  <img src="https://img.shields.io/badge/YOLO-FF55FF?style=for-the-badge&logo=YOLO&logoColor=white">
   <br>
 
 </div>
