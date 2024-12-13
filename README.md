@@ -58,6 +58,18 @@
 ## 2.2 System Configuration
 ![image](https://github.com/user-attachments/assets/288fdb89-6750-4021-b530-93a7d0d688c1)
 
+## 2.3 ER - Diagram
+![image](https://github.com/user-attachments/assets/f062e6fa-ddda-4b68-a7da-dbcdda6ddea3)
+
+## 2.4 GUI Design (Central Server)
+![image](https://github.com/user-attachments/assets/54471f6a-cb90-4950-8f68-5e6f3bc304d9)
+![image](https://github.com/user-attachments/assets/6c39a16b-d450-48f2-a318-ec66571f06d4)
+![image](https://github.com/user-attachments/assets/610fadf1-8ef1-4399-bf5d-d53dd57f4f58)
+
+## 2.5 GUI Design (소방서 및 경찰서 영상관제)
+![image](https://github.com/user-attachments/assets/5ed231d7-8cdc-4101-bcc6-3cda685f1e16)
+![image](https://github.com/user-attachments/assets/44aea6e9-663f-4b6f-8edc-c8954f01df41)
+
 ---
 # 3. Main Functions
 ---
