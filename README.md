@@ -63,13 +63,13 @@
 ![image](https://github.com/user-attachments/assets/f062e6fa-ddda-4b68-a7da-dbcdda6ddea3)
 
 ## 2.4 GUI Design (Central Server)
-![image](https://github.com/user-attachments/assets/54471f6a-cb90-4950-8f68-5e6f3bc304d9)
-![image](https://github.com/user-attachments/assets/6c39a16b-d450-48f2-a318-ec66571f06d4)
-![image](https://github.com/user-attachments/assets/610fadf1-8ef1-4399-bf5d-d53dd57f4f58)
+![Screenshot from 2024-12-13 12-06-56](https://github.com/user-attachments/assets/e1e40848-e9e1-4485-9937-ce86d4ba7299)
+![Screenshot from 2024-12-13 12-07-13](https://github.com/user-attachments/assets/c5902188-1bcd-4257-be1f-837993230919)
+![Screenshot from 2024-12-13 12-07-20](https://github.com/user-attachments/assets/68f78777-833d-492f-8dbc-48fdd66342a4)
 
 ## 2.5 GUI Design (소방서 및 경찰서 영상관제)
-![image](https://github.com/user-attachments/assets/5ed231d7-8cdc-4101-bcc6-3cda685f1e16)
-![image](https://github.com/user-attachments/assets/44aea6e9-663f-4b6f-8edc-c8954f01df41)
+![Screenshot from 2024-12-13 12-07-34](https://github.com/user-attachments/assets/b99acff0-e351-4e8e-ad43-e55bc6bfd33e)
+![Screenshot from 2024-12-13 12-07-41](https://github.com/user-attachments/assets/cd6b3a5e-9c4e-42ba-bd05-dbddb56aa280)
 
 ---
 # 3. Main Functions
