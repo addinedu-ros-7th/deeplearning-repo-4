@@ -2,12 +2,12 @@
 
 # City Guardian : 인공지능 안전 관제 시스템
 # 1. Project Overview 
-## 1.1 Topic
+## 1-1 Topic
 &nbsp;이 시스템은 **지능형 CCTV**를 활용하여 **화재, 폭력, 흉기** 상황을 자동으로 감지하고, 중앙 서버에서 데이터를 관리하며, 실시간으로 알림을 제공하는 관제 시스템입니다.<br>
 &nbsp;**지능형 CCTV** 는 단순한 물체를 모니터링 하는 역할을 넘어 안전 골든타임을 확보하고 국민 일상과 사회문제를 해결하는 핵심기술이 됐다.<br>
 다양한 분야에서 수요가 높아지는 만큼 앞으로 **지능형 CCTV**를 통해 사람은 안전하고 기업은 효율적이며 환경은 안전해지는 사회를 구축할 수 있길 기대한다.
 
-## 1.2 Tech Stacks
+## 1-2 Tech Stacks
 <div align=center>
 
   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white"/>
@@ -31,7 +31,7 @@
 
 <br>
 
-## 1.3 Team & Responsibility
+## 1-3 Team & Responsibility
 |이름|담당 업무|
 |:---:|---|
 |**조지은(팀장)**| GUI 전체 구현 및 Central Server - 소켓 통신|
@@ -40,7 +40,7 @@
 |**이영훈(팀원)**| Knife Detect YOLO 모델 구현|
 ---
 # 2.Project Plan
-## 2.1 System Requirement
+## 2-1 System Requirement
 |카테고리|Function (기능)|Description (구체화)|우선순위|비고|
 |:---:|:---:|---|:---:|:---:|
 |상황감지|화재 감지 기능|* 화재 감지<br> - YOLO v8n-Segment 모델을 활용하여 화재 상황 감지|1|PASS|
@@ -56,23 +56,32 @@
 ||녹화 영상 열람|* 사건 발생 시간, 종류, 위치 등 세부 검색 조건에 맞게 영상 조회|2||
 |위험 상황 알림|SMS 알림|* 위험 상황 발생 시 사용자에게 SMS 문자 전송|3||
 
-## 2.2 System Configuration
+## 2-2 System Configuration
 ![image](https://github.com/user-attachments/assets/288fdb89-6750-4021-b530-93a7d0d688c1)
 
-## 2.3 ER - Diagram
+## 2-3 ER - Diagram
 ![image](https://github.com/user-attachments/assets/f062e6fa-ddda-4b68-a7da-dbcdda6ddea3)
 
-## 2.4 GUI Design (Central Server)
+## 2-4 GUI Design (Central Server)
 ![Screenshot from 2024-12-13 12-06-56](https://github.com/user-attachments/assets/e1e40848-e9e1-4485-9937-ce86d4ba7299)
 ![Screenshot from 2024-12-13 12-07-13](https://github.com/user-attachments/assets/c5902188-1bcd-4257-be1f-837993230919)
 ![Screenshot from 2024-12-13 12-07-20](https://github.com/user-attachments/assets/68f78777-833d-492f-8dbc-48fdd66342a4)
 
-## 2.5 GUI Design (소방서 및 경찰서 영상관제)
+## 2-5 GUI Design (소방서 및 경찰서 영상관제)
 ![Screenshot from 2024-12-13 12-07-34](https://github.com/user-attachments/assets/b99acff0-e351-4e8e-ad43-e55bc6bfd33e)
 ![Screenshot from 2024-12-13 12-07-41](https://github.com/user-attachments/assets/cd6b3a5e-9c4e-42ba-bd05-dbddb56aa280)
 
 ---
 # 3. Main Functions
+## 3-1 Fire Segmentation
+![Screenshot from 2024-12-13 16-13-42](https://github.com/user-attachments/assets/02e044d1-bd50-40be-ae3a-b4c807a0198e)
+
+## 3-2 Fall Down Pose Estimation
+![Screenshot from 2024-12-13 16-13-52](https://github.com/user-attachments/assets/2d6b678f-a8b5-4cd7-8ebf-7ac3da057b5f)
+
+## 3-3 Knife Object Detection
+![Screenshot from 2024-12-13 16-13-56](https://github.com/user-attachments/assets/ea695c40-f84d-4a03-9d73-f0ce2df5ac63)
+
 ---
 # 4. Problems & Improvement
 - **화재 YOLO v8n-Segment 학습 간 인식률 저하**
