@@ -74,9 +74,11 @@
 ---
 # 3. Main Functions
 ## 3-1 Fire Segmentation
+[동영상 보기]https://github.com/addinedu-ros-7th/deeplearning-repo-4/blob/main/videos/lighter%20segment.avi
 ![Screenshot from 2024-12-13 16-13-42](https://github.com/user-attachments/assets/02e044d1-bd50-40be-ae3a-b4c807a0198e)
 
 ## 3-2 Fall Down Pose Estimation
+[동영상 보기]https://github.com/addinedu-ros-7th/deeplearning-repo-4/blob/main/videos/fall_down%20pose%20detection.mp4
 ![Screenshot from 2024-12-13 16-13-52](https://github.com/user-attachments/assets/2d6b678f-a8b5-4cd7-8ebf-7ac3da057b5f)
 
 ## 3-3 Knife Object Detection
