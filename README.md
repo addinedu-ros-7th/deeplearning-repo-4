@@ -84,16 +84,16 @@
 
 ---
 # 4. Problems & Improvement
-- **화재 YOLO v8n-Segment 학습 간 인식률 저하**
+- **화재 Segment 학습 간 인식률 문제**
   - 화재 동영상 촬영 후 프레임 단위 이미지 데이터 분류
   - Roboflow 활용 라벨링 진행
  
-- **쓰러짐 YOLO v8m-Pose 학습 간 인식률 저하**
+- **쓰러짐 Pose 인식률 문제**
   - Pose 모델 키포인트 데이터 변환 및 레이블 json 파일 분류
   - 딥러닝 학습
   - 박스 높이보다 너비가 길 경우 넘어짐으로 판단 인식률 증가
   
-- **흉기감지 인식률 문제**
+- **흉기 감지 Object Detection 인식률 문제**
   - Knife 인식과 함께 뾰족한 사물도 Knife로 인식되는 문제가 발생하여  Dataset을 추가적으로 학습시켜 인식률을 높임
 ---
 # 5. Review
