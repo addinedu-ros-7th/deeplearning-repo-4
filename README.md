@@ -66,13 +66,13 @@
 ![Screenshot from 2024-12-18 10-10-14](https://github.com/user-attachments/assets/dbe17d70-f6b7-43e2-a52e-c2d3008648d8)
 ![Screenshot from 2024-12-18 10-10-21](https://github.com/user-attachments/assets/507ea397-673c-4ffa-b8b1-b801f66e2d4f)
 
-## 2-5 GUI Design (소방서)
+## 2-5 GUI Design (Fire Station)
 ![Screenshot from 2024-12-18 10-10-28](https://github.com/user-attachments/assets/de8ed142-e532-46c5-a589-6a5e1fc94a46)
 
-## 2-6 GUI Design (경찰서)
+## 2-6 GUI Design (Police Station)
 ![Screenshot from 2024-12-18 10-10-32](https://github.com/user-attachments/assets/b991e2db-1df7-454e-aaa0-84df055d81d1)
 
-## 2-7 GUI Design (유저)
+## 2-7 GUI Design (User)
 ![Screenshot from 2024-12-18 10-10-38](https://github.com/user-attachments/assets/173b8bc0-b772-4bfc-a816-a7817c0f1205)
 
 ---
