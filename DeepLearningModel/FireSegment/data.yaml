@@ -1,0 +1,13 @@
+train: /home/wani/yolov3/mydata/lighter/train/images
+val: /home/wani/yolov3/mydata/lighter/valid/images
+test: /home/wani/yolov3/mydata/lighter/test/images
+
+nc: 1
+names: ['Fire']
+
+roboflow:
+  workspace: fireseg-llcbo
+  project: lighter_seg
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/fireseg-llcbo/lighter_seg/1

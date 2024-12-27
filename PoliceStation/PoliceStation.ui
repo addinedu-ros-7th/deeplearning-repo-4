@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>179</red>
+        <green>229</green>
+        <blue>252</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>179</red>
+        <green>229</green>
+        <blue>252</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>179</red>
+        <green>229</green>
+        <blue>252</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>179</red>
+        <green>229</green>
+        <blue>252</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>179</red>
+        <green>229</green>
+        <blue>252</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>179</red>
+        <green>229</green>
+        <blue>252</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>179</red>
+        <green>229</green>
+        <blue>252</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>179</red>
+        <green>229</green>
+        <blue>252</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>179</red>
+        <green>229</green>
+        <blue>252</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+    background-color: #B3E5FC; /* 파스텔톤 연한 파란색 */
+}
+</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>179</red>
+         <green>229</green>
+         <blue>252</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>179</red>
+         <green>229</green>
+         <blue>252</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>179</red>
+         <green>229</green>
+         <blue>252</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>179</red>
+         <green>229</green>
+         <blue>252</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>179</red>
+         <green>229</green>
+         <blue>252</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>179</red>
+         <green>229</green>
+         <blue>252</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>179</red>
+         <green>229</green>
+         <blue>252</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>179</red>
+         <green>229</green>
+         <blue>252</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>179</red>
+         <green>229</green>
+         <blue>252</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #B3E5FC; </string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>1281</width>
+       <height>921</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <item row="1" column="1">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Camera 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Camera 2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Camera 3</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Camera 4</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>1335</x>
+       <y>80</y>
+       <width>470</width>
+       <height>260</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>NanumGothic</family>
+       <pointsize>21</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox {
+    background-color: #f8f8f8; /* 부드러운 하얀색 배경 */
+    border: 2px solid #dcdcdc; /* 옅은 회색 테두리 */
+    border-radius: 10px;       /* 둥근 모서리 */
+    margin-top: 20px;          /* 제목 여백 */
+    padding: 10px;             /* 내부 여백 */
+}
+QGroupBox:title {
+    subcontrol-origin: margin; /* 제목 위치 설정 */
+    subcontrol-position: top center; /* 제목을 상단 중앙에 배치 */
+    padding: 5px 15px;          /* 제목 내부 여백 */
+    background-color: #ffffff;  /* 제목 배경 흰색 */
+    color: #333333;             /* 제목 글자색 */
+    border: 1px solid #dcdcdc;  /* 제목 테두리 */
+    border-radius: 5px;         /* 제목 둥근 테두리 */
+}
+</string>
+     </property>
+     <property name="title">
+      <string>일간 상황판</string>
+     </property>
+     <widget class="QLabel" name="police_icon">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>100</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(191, 64, 64, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../../../../Downloads/police.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="weapon_title">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>100</y>
+        <width>45</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(191, 64, 64, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>흉기</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="weapon_label">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>100</y>
+        <width>23</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(191, 64, 64, 0);</string>
+      </property>
+      <property name="text">
+       <string>건</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="weapon_count">
+      <property name="geometry">
+       <rect>
+        <x>292</x>
+        <y>105</y>
+        <width>31</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(191, 64, 64, 0);</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="violence_title">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>150</y>
+        <width>45</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(191, 64, 64, 0);</string>
+      </property>
+      <property name="text">
+       <string>폭력</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="violence_label">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>150</y>
+        <width>23</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(191, 64, 64, 0);</string>
+      </property>
+      <property name="text">
+       <string>건</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="violence_count">
+      <property name="geometry">
+       <rect>
+        <x>292</x>
+        <y>155</y>
+        <width>31</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(191, 64, 64, 0);</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>1335</x>
+       <y>390</y>
+       <width>470</width>
+       <height>260</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>NanumGothic</family>
+       <pointsize>21</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox {
+    background-color: #f8f8f8; /* 부드러운 하얀색 배경 */
+    border: 2px solid #dcdcdc; /* 옅은 회색 테두리 */
+    border-radius: 10px;       /* 둥근 모서리 */
+    margin-top: 20px;          /* 제목 여백 */
+    padding: 10px;             /* 내부 여백 */
+}
+QGroupBox:title {
+    subcontrol-origin: margin; /* 제목 위치 설정 */
+    subcontrol-position: top center; /* 제목을 상단 중앙에 배치 */
+    padding: 5px 15px;          /* 제목 내부 여백 */
+    background-color: #ffffff;  /* 제목 배경 흰색 */
+    color: #333333;             /* 제목 글자색 */
+    border: 1px solid #dcdcdc;  /* 제목 테두리 */
+    border-radius: 5px;         /* 제목 둥근 테두리 */
+}
+</string>
+     </property>
+     <property name="title">
+      <string>위협 행동 감지</string>
+     </property>
+     <widget class="QLabel" name="violence_off">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>60</y>
+        <width>120</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(191, 64, 64, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>ui/fight_off.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="violence_title2">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>200</y>
+        <width>45</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(191, 64, 64, 0);</string>
+      </property>
+      <property name="text">
+       <string>폭력</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="weapon_detect">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>60</y>
+        <width>120</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">    QPushButton {
+        background-color: rgba(191, 64, 64, 0);
+        border: none;
+    }
+
+    QPushButton:focus {
+        outline: none;  /* 포커스 시 테두리 제거 */
+    }</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>ui/weapon_off.png</normaloff>
+        <normalon>ui/weapon_on.png</normalon>ui/weapon_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>120</width>
+        <height>141</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="weapon_title2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>200</y>
+        <width>45</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>NanumGothic</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(191, 64, 64, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>흉기</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>1335</x>
+       <y>720</y>
+       <width>470</width>
+       <height>260</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>NanumGothic</family>
+       <pointsize>21</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox {
+    background-color: #f8f8f8; /* 부드러운 하얀색 배경 */
+    border: 2px solid #dcdcdc; /* 옅은 회색 테두리 */
+    border-radius: 10px;       /* 둥근 모서리 */
+    margin-top: 20px;          /* 제목 여백 */
+    padding: 10px;             /* 내부 여백 */
+}
+QGroupBox:title {
+    subcontrol-origin: margin; /* 제목 위치 설정 */
+    subcontrol-position: top center; /* 제목을 상단 중앙에 배치 */
+    padding: 5px 15px;          /* 제목 내부 여백 */
+    background-color: #ffffff;  /* 제목 배경 흰색 */
+    color: #333333;             /* 제목 글자색 */
+    border: 1px solid #dcdcdc;  /* 제목 테두리 */
+    border-radius: 5px;         /* 제목 둥근 테두리 */
+}
+</string>
+     </property>
+     <property name="title">
+      <string>서버 연결 상태</string>
+     </property>
+     <widget class="QPushButton" name="police_server_on">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>90</y>
+        <width>101</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">    QPushButton {
+        background-color: rgba(191, 64, 64, 0);
+        border: none;
+    }
+
+    QPushButton:focus {
+        outline: none;  /* 포커스 시 테두리 제거 */
+    }</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>ui/light_off.png</normaloff>
+        <normalon>ui/light_on.png</normalon>ui/light_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>100</width>
+        <height>100</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QWidget" name="videowidget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>83</y>
+       <width>1274</width>
+       <height>921</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(119, 118, 123);</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>1565</x>
+       <y>83</y>
+       <width>130</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>0시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>1시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>7시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>11시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>12시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>13시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>14시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>16시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>17시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>18시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>19시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>20시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>21시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>22시</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>23시</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QWidget" name="layoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>1280</x>
+       <y>160</y>
+       <width>271</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <spacer name="horizontalSpacer_9">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Ignored</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>31</width>
+          <height>5</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="Weapon_radioButton">
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>흉기</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_10">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Ignored</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="Violence_radioButton">
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>폭력</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="viewButton">
+     <property name="geometry">
+      <rect>
+       <x>1705</x>
+       <y>160</y>
+       <width>130</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string>보기</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>1285</x>
+       <y>240</y>
+       <width>551</width>
+       <height>765</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="gridStyle">
+      <enum>Qt::NoPen</enum>
+     </property>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>183</number>
+     </attribute>
+     <attribute name="horizontalHeaderStretchLastSection">
+      <bool>true</bool>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>비디오 ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>파일 이름</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>저장 시간</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>1705</x>
+       <y>83</y>
+       <width>130</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>0분</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10분</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>20분</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>30분</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>40분</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>50분</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="searchButton">
+     <property name="geometry">
+      <rect>
+       <x>1565</x>
+       <y>160</y>
+       <width>131</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string>조회</string>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="dateEdit">
+     <property name="geometry">
+      <rect>
+       <x>1285</x>
+       <y>83</y>
+       <width>271</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="displayFormat">
+      <string>yyyyMMdd</string>
+     </property>
+     <property name="calendarPopup">
+      <bool>true</bool>
+     </property>
+     <property name="date">
+      <date>
+       <year>2024</year>
+       <month>12</month>
+       <day>18</day>
+      </date>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="Event_Log_Button">
+   <property name="geometry">
+    <rect>
+     <x>145</x>
+     <y>8</y>
+     <width>140</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    QPushButton {
+        background-color: #B3E5FC; /* 기본 상태 파스텔톤 연한 파란색 배경 */
+        color: #000000; /* 검은색 텍스트 */
+        border: 1px solid #01579B; /* 중간 파란 테두리 */
+        border-radius: 5px; /* 둥근 버튼 */
+        padding: 5px 10px; /* 안쪽 여백 */
+    }</string>
+   </property>
+   <property name="text">
+    <string>기록조회</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Monitoring_Button">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>8</y>
+     <width>140</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  QPushButton {
+        background-color: #03A9F4; /* 활성화 시 진한 파란색 배경 */
+        color: #FFFFFF; /* 흰색 텍스트 */
+        border: 2px solid #0288D1; /* 짙은 파란색 테두리 */
+        font-weight: bold; /* 굵은 글자 */
+        border-radius: 5px; /* 둥근 버튼 */
+        padding: 5px 10px; /* 안쪽 여백 */
+    }
+
+</string>
+   </property>
+   <property name="text">
+    <string>영상관제 </string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
