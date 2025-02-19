@@ -4,15 +4,14 @@
 # 1. Project Overview 
 ## 1-1 Topic
 &nbsp;이 시스템은 **지능형 CCTV**를 활용하여 **화재, 폭력, 흉기** 상황을 자동으로 감지하고, 중앙 서버에서 데이터를 관리하며, 실시간으로 알림을 제공하는 관제 시스템입니다.<br>
-&nbsp;**지능형 CCTV** 는 단순한 물체를 모니터링 하는 역할을 넘어 안전 골든타임을 확보하고 국민 일상과 사회문제를 해결하는 핵심기술이 됐다.<br>
-다양한 분야에서 수요가 높아지는 만큼 앞으로 **지능형 CCTV**를 통해 사람은 안전하고 기업은 효율적이며 환경은 안전해지는 사회를 구축할 수 있길 기대한다.
+&nbsp;**지능형 CCTV** 는 단순한 물체를 모니터링 하는 역할을 넘어 안전 골든타임을 확보하고 국민 일상과 사회문제를 해결하는 핵심기술 입니다.<br>
+다양한 분야에서 수요가 높아지는 만큼 앞으로 **지능형 CCTV**를 통해 사람은 안전하고 기업은 효율적이며 환경은 안전해지는 사회를 구축할 수 있길 기대합니다.
 
 ## 1-2 Tech Stacks
 <div align=center>
 
   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white"/>
   <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
-  <img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
   <br>
   
   <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white"/>
@@ -34,10 +33,10 @@
 ## 1-3 Team & Responsibility
 |이름|담당 업무|
 |:---:|---|
-|**조지은(팀장)**| GUI 전체 구현 및 Central Server - 소켓 통신|
-|**김완섭(팀원)**| Fire Segment, Fall Down Pose & 딥러닝 YOLO 모델 구현, PPT 자료 준비|
-|**유재현(팀원)**| Central Server 구현, GUI - 소켓 통신, DB / Github 관리
-|**이영훈(팀원)**| Knife Detect YOLO 모델 구현|
+|**조지은(팀장)**| • Central Server GUI 구현<br> • 녹화영상 HTTP 통신<br> • 영상 로그 TCP 통신<br> • 위험상황 카운트 및 표시등 기능 구현|
+|**김완섭(팀원)**| • Fire Segment, Fall Down Pose & 딥러닝 YOLO 모델 구현<br> • PPT 자료 준비, 발표|
+|**유재현(팀원)**| • 실시간 영상 TCP 통신 및 딥러닝 모델 적용<br> • Violence Pose & LSTM 모델 구현<br> • Fire Station, Police Station GUI 구현<br> • Jira, Confluence, DB, Github
+|**이영훈(팀원)**| • Knife Detect YOLO 모델 구현|
 ---
 # 2.Project Plan
 ## 2-1 System Requirement
@@ -57,23 +56,22 @@
 |위험 상황 알림|SMS 알림|* 위험 상황 발생 시 사용자에게 SMS 문자 전송|3||
 
 ## 2-2 System Configuration
-![image](https://github.com/user-attachments/assets/288fdb89-6750-4021-b530-93a7d0d688c1)
+![Image](https://github.com/user-attachments/assets/0f72aec8-db2d-4d93-998d-8e21b9d2d5a4)
 
 ## 2-3 ER - Diagram
-![image](https://github.com/user-attachments/assets/f062e6fa-ddda-4b68-a7da-dbcdda6ddea3)
+![Image](https://github.com/user-attachments/assets/8e511662-2230-492e-ad75-f386ffb6bcf8)
 
 ## 2-4 GUI Design (Central Server)
-![Screenshot from 2024-12-18 10-10-14](https://github.com/user-attachments/assets/dbe17d70-f6b7-43e2-a52e-c2d3008648d8)
-![Screenshot from 2024-12-18 10-10-21](https://github.com/user-attachments/assets/507ea397-673c-4ffa-b8b1-b801f66e2d4f)
+![Image](https://github.com/user-attachments/assets/bd964069-0c5b-4fb0-a37f-b4ec2244c663)
+![Image](https://github.com/user-attachments/assets/90b168bc-4566-4e17-bcb4-6c5f0506bab5)
 
 ## 2-5 GUI Design (Fire Station)
-![Screenshot from 2024-12-18 10-10-28](https://github.com/user-attachments/assets/de8ed142-e532-46c5-a589-6a5e1fc94a46)
+![Image](https://github.com/user-attachments/assets/73bc53dd-e0e5-493b-9787-d27dc6c29d77)
+![Image](https://github.com/user-attachments/assets/8bda5b58-e8dd-43ce-8104-3afa03357b1e)
 
 ## 2-6 GUI Design (Police Station)
-![Screenshot from 2024-12-18 10-10-32](https://github.com/user-attachments/assets/b991e2db-1df7-454e-aaa0-84df055d81d1)
-
-## 2-7 GUI Design (User)
-![Screenshot from 2024-12-18 10-10-38](https://github.com/user-attachments/assets/173b8bc0-b772-4bfc-a816-a7817c0f1205)
+![Image](https://github.com/user-attachments/assets/be01e030-7838-43e6-9cdc-ff8a44ad0737)
+![Image](https://github.com/user-attachments/assets/ed95f4b7-4039-4fa0-bd41-e305043387d4)
 
 ---
 # 3. Main Functions
@@ -88,6 +86,12 @@
 ## 3-3 Knife Object Detection
 ![Screenshot from 2024-12-13 16-13-56](https://github.com/user-attachments/assets/ea695c40-f84d-4a03-9d73-f0ce2df5ac63)
 
+## 3-4 Violence Detection
+[동영상 보기]https://youtu.be/kUtSx9mMoa8?si=makyOqP7ukipDyiu
+![Image](https://github.com/user-attachments/assets/8243469e-1099-4f68-9e6f-bcb5876898e1)
+
+![Image](https://github.com/user-attachments/assets/1764f6d0-663e-4253-b2b7-6712e32f671e)
+
 ---
 # 4. Problems & Improvement
 - **화재 Segment 학습 간 인식률 문제**
@@ -101,11 +105,17 @@
   
 - **흉기 감지 Object Detection 인식률 문제**
   - Knife 인식과 함께 뾰족한 사물도 Knife로 인식되는 문제가 발생하여  Dataset을 추가적으로 학습시켜 인식률을 높임
+
+- **흉기 감지모델과 폭력 감지 모델 통합**
+  - 호환성 문제로 두개의 모델이 하나의 영상에서 결과 데이터가 표시가 되지 않는 문제 해결 필요
 ---
 # 5. Review
 |이름|소감|
 |:---:|---|
-|**조지은(팀장)**||
-|**김완섭(팀원)**|&nbsp;팀에서 YOLO를 담당하여 데이터 분류, 라벨링, 학습 등 여러가지 모델을 진행 하면서 어려움이 있었지만, 프로젝트 기간동안 실력 숙달이 된 것 같고, 내가 재미있어 하는 분야를 찾은 것 같아 좋은 경험이 되었다.|
-|**유재현(팀원)**||
-|**이영훈(팀원)**|&nbsp;이미지나 영상에서 사물을 학습시켜 인식을 하는 새로운 경험을 하게 되어 흥미로웠고, YOLO와 같은 모듈은 사용하기 쉬웠지만, 다른 모델을 사용할때는 어려운점도 있었습니다.|
+|**조지은(팀장)**|&nbsp; GUI를 설계하는 과정에서  TCP 소켓과 Flask 기반의 HTTP 스트리밍을 활용해 안정적인 데이터 송수신 환경을 구축하며 네트워크 통신의 중요성을 알게 되었고 이번 프로젝트를 통해 사용자 중심의 설계와 기술적 문제를 해결하는 과정에서 많은 것을 배우고 성장할 수 있었습니다. |
+|**김완섭(팀원)**|&nbsp; 팀에서 YOLO를 담당하여 데이터 분류, 라벨링, 학습 등 여러가지 모델을 진행 하면서 어려움이 있었지만, 프로젝트 기간동안 실력 숙달이 된 것 같고, 내가 재미있어 하는 분야를 찾은 것 같아 좋은 경험이 되었습니다. |
+|**유재현(팀원)**|&nbsp; 시스템에 TCP 통신과 화재, 흉기 감지 딥러닝 모델을 적용하여 실시간 위험상황 감지 기능을 구현 해보았습니다. 실신, 폭력 감지 모델을 GUI에 통합 시키는 과정에서 아쉬운 부분이 있었지만 서버 연결 상태와 시스템 기능을 원활히 유지하며 기술 역량을 향상할 수 있었던 소중한 기회였습니다.|
+|**이영훈(팀원)**|&nbsp; 이미지나 영상에서 사물을 학습시켜 인식을 하는 새로운 경험을 하게 되어 흥미로웠고, YOLO와 같은 모듈은 사용하기 쉬웠지만, 다른 모델을 사용할때는 어려운점도 있었습니다.|
+
+# 6. Presentation
+[발표자료]https://docs.google.com/presentation/d/1MKaWEkayNhbj-BMBYFziAtfxzu7jGDmBcmMe2kjy_6M/edit?usp=sharing
